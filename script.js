@@ -3,7 +3,7 @@
 
 
 let userWord = prompt('Inserisci una parola');
-// console.log(userWord);
+console.log(userWord);
 
 
 
@@ -23,8 +23,9 @@ while ( i >= 0 ){
     i--;
 }
 
-if (userWord = array[3]){
+if (userWord == array[3]){
     console.log("Palindroma!")
+
 } else {
     console.log("NON palindroma!")
 
