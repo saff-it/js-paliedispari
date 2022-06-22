@@ -15,7 +15,7 @@ let i = userWord.length;
 while ( i >= 0 ){
     console.log(userWord[0+i]);
 
-    array.push(userWord);
+    
     i--;
 }
 
