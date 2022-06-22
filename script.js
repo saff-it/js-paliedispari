@@ -49,17 +49,18 @@ function isEven(numeroUser, numeroPc){
 const cpuNumber = calcNumberRandom(1, 5);
 console.log(cpuNumber);
 
+isEven(userNumberChoice, cpuNumber);
+console.log(isEven());
 
 
 
+if ( isEven(userNumberChoice, cpuNumber) == true && evenOddUserChoice === 'Pari' ) {
+    console.log("Hai Vinto!");
 
-// if ( (userNumberChoice + calcNumberRandom(1, 5)) % 2 === 0 && evenOddUserChoice === 'Pari' ) {
-//     console.log("Hai Vinto!");
+} else if ( isEven(userNumberChoice, cpuNumber) == false && evenOddUserChoice === 'Dispari' ) {
+    console.log("Hai Vinto!");
 
-// } else if ( (userNumberChoice + calcNumberRandom(1, 5)) % 2 === 1 && evenOddUserChoice === 'Dispari' ) {
-//     console.log("Hai Vinto!");
+} else {
+    console.log("Hai Perso!");
 
-// } else {
-//     console.log("Hai Perso!");
-
-// }
+}
