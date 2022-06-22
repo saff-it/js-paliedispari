@@ -34,7 +34,7 @@ if ( userNumberChoice < 1 || userNumberChoice > 5) {
 
 
 function calcNumberRandom(min, max){
-    return Math.floor(Math.random() * (6 - 1) +1);
+    return Math.floor(Math.random() * (max - min) +min);
 }
 
 function isEven(numeroUser, numeroPc){
