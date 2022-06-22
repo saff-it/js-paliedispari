@@ -1,7 +1,8 @@
 
 // Esercizio Palindromo
 
-const userWord = prompt('Inserisci una parola');
+
+let userWord = prompt('Inserisci una parola');
 // console.log(userWord);
 
 
@@ -9,14 +10,24 @@ const userWord = prompt('Inserisci una parola');
 const array= [];
 console.log(array);
 
+let reversed = array.reverse();
 
-let i = userWord.length;
+
+let i = userWord.length -1;
 
 while ( i >= 0 ){
     console.log(userWord[0+i]);
 
-    
+    array.push(reversed += (userWord[0+i]));
+
     i--;
+}
+
+if (userWord = array[3]){
+    console.log("Palindroma!")
+} else {
+    console.log("NON palindroma!")
+
 }
 
 
