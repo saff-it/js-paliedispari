@@ -1,4 +1,17 @@
 
+// Esercizio Palindromo
+
+const userWord = prompt('Inserisci una parola');
+console.log(userWord);
+
+
+
+
+
+
+
+
+
 
 
 
